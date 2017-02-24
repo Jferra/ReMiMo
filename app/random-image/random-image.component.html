@@ -1,0 +1,6 @@
+<ActionBar title="ReMiMo" class="action-bar">
+</ActionBar>
+<StackLayout class="page">
+  <!--Gif [src]="imageSrc$ | async" id="randomImage" (loaded)="onGifLoaded"></Gif-->
+  <Gif #testGif src="~/images/productive.gif" id="randomImage" (loaded)="onGifLoaded()"></Gif>
+</StackLayout>
